@@ -1,231 +1,307 @@
-
-
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<!-- saved from url=(0079)file:///C:/Users/zhangz/Desktop/Welcome%20to%20Zhenya%20Huang's%20HomePage.html -->
+<html><head lang="en"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to Zhao Zhang's HomePage</title>
+  <link rel="stylesheet" href="./files/bootstrap.min.css">
+  <link rel="stylesheet" href="./files/bootstrap.css">
+  <style>
+    body{
+            margin-top: 70px;
+        }
+  </style>
+<style>.crx_bdwk_down_wrap {
+    top: 70%;
+    left: 0;
+    position: fixed;
+    z-index: 99999999;
+    color: #fff;
+    user-select: none;
+}
 
-    <title>Zhao Zhang's Homepage</title>
+    .crx_bdwk_down_wrap .crx_bdwk_down_loading {
+        background-color: #666;
+        cursor: wait;
+        width: 126px;
+        text-align: center;
+        padding: 16px 0;
+    }
 
-    <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    .crx_bdwk_down_wrap .crx_bdwk_down_loading p {
+            font-size: 14px;
+        }
 
-    <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+    .crx_bdwk_down_wrap .crx_bdwk_down_loading small {
+            font-size: 10px;
+        }
 
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    .crx_bdwk_down_wrap .crx_bdwk_down_btn {
+        width: 126px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-size: 14px;
+        background-color: #dd5a57;
+        position: relative;
+    }
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+    .crx_bdwk_down_wrap .crx_bdwk_down_types {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        background-color: #666;
+        font-size: 12px;
+    }
 
-  <body>
+    .crx_bdwk_down_wrap .crx_bdwk_down_types div {
+            position: relative;
+        }
 
-    <div class="navbar navbar-inverse navbar-fixed-top"  role="navigation">
-      <div class="container" style="padding-left: 10px; padding-right: 50px;">
-        <div class="navbar-header" style="padding-left: 10px; padding-right: 15px; ">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <span class="navbar-brand">Zhao Zhang @ ICT, CAS<br /></span>
-        </div>
+    .crx_bdwk_down_wrap .crx_bdwk_down_types div:after {
+                content: ' ';
+                height: 12px;
+                width: 1px;
+                background-color: #eee;
+                position: absolute;
+                top: 10px;
+                right: 0;
+                transform: scaleX(0.5);
+            }
+
+    .crx_bdwk_down_wrap .crx_bdwk_down_types div:last-child:after {
+                    display: none;
+                }
+
+    .crx_bdwk_down_wrap .crx_bdwk_down_types_check {
+            flex: 1;
+            color: #dd5a57;
+            padding: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .crx_bdwk_down_wrap .crx_bdwk_down_types_uncheck {
+            flex: 1;
+            padding: 8px;
+            cursor: pointer;
+            color: #fff;
+            font-weight: lighter;
+        }
+</style></head>
+
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="row"></div>
+    <div class="col-md-9">
+      <div class="navbar-collapse collapse ">
+        <ul class="nav navbar-nav" style="clear: both">
+          <li class="active"><a class="navitme" href="http://staff.ustc.edu.cn/~huangzhy/#home">Home</a> </li>
+          <li><a class="navitme" href="https://tsingker88.github.io/#biography">Biography</a> </li>
+          <li><a class="navitme" href="https://tsingker88.github.io/#education">Education</a> </li>
+          <li><a class="navitme" href="https://tsingker88.github.io/#experience">Experience</a> </li>
+          <li><a class="navitme" href="https://tsingker88.github.io/#publications">Pubications</a> </li>
+          <li><a class="navitme" href="https://tsingker88.github.io/#honors">Honors</a> </li>
+        </ul>
       </div>
     </div>
-
-    <p></p>
-
-    <div class="container" style="padding-top: 60px;">
-    <div class="starter-template" >
-	<div class="row" >
-		<div class="col-md-3">
-			<img src="files/avatar.jpg" alt="Zhao Zhang's avatar" class="img-rounded" width="170px" height="205px">
-		</div>
-		<div class="col-md-7">
-			<h1>Zhao Zhang (张钊)</h1>
-			<p class="lead">Ph.D. Candidate<br/>
-			Institute of Computing Technology<br>
-			Chinese Academy of Sciences</p>
-			<p class="lead">Email: zhangzhao2017 AT ict DOT ac DOT cn</p>
-		</div>
-			
-		<div class="col-md-12">
-			<div id="bio"> <!-- Short Bio Section --> 
-			<hr>
-			<h3>Short Bio</h3>
-			<p class="lead"><small>
-			I am a final-year Ph.D. student at the </a>
-			<a href="http://www.ict.ac.cn/" target="_blank">Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS)</a>,
-			where I am more than lucky to be co-supervised by 
-			<a href="http://people.ucas.ac.cn/~0000964" target="_blank">Prof. Qing He</a>
-			and 
-			<a href="http://www.intsci.ac.cn/users/zhuangfuzhen/" target="_blank">Prof. Fuzhen Zhuang</a>.
-			My research interests lie in data mining and applied machine learning, with a special focus on the representation and application of knowledge graphs.
-			Before joining ICT,
-			I obtained my B.Eng. in Computer Science and Technology from  
-			<a href="http://english.bit.edu.cn/" target="_blank">Bejing Institute of Technology</a>.
-			<br>
-
-			Currently, I am visiting the 
-			<a href="https://nlp.cs.ucl.ac.uk/" target="_blank">NLP group</a>
-			at University College London, where I work with 
-			<a href="http://www.neuralnoise.com/" target="_blank">Dr. Pasquale Minervini</a>
-			and
-			<a href="http://www.riedelcastro.org/" target="_blank">Prof. Sebastian Riedel.</a>
-
-			<i><b>Advertisement: I am expected to graduate in Jan 2021, and I'm now actively looking for a data mining related position in either academia or industry.</i></b>
-			<br>
-			[<a href="https://scholar.google.com.sg/citations?user=i8a07CgAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a>]
-			[<a href="https://twitter.com/Chris_Zhang01" target="_blank">Twitter</a>]
-			</small></p>
-			</div>
-			
-			<div id="education"> <!-- Education Section --> 
-			<hr>
-			<h3>Education</h3>
-			<small>
-			<p class="lead"> <b> Institute of Computing Technology, Chinese Academy of Sciences</b><br> Ph.D in Computer Science, 2015.09 - Now<br>
-			Advisors: <a href="http://people.ucas.ac.cn/~0000964" target="_blank">Prof. Qing He</a>
-			and 
-			<a href="http://www.intsci.ac.cn/users/zhuangfuzhen/" target="_blank">Prof. Fuzhen Zhuang</a>
-			</small></p>
-			<small>
-			<p class="lead"> <b> University College London</b><br> Visiting Scholar, 2019.09 - Now<br>
-			Advisor: <a href="http://www.riedelcastro.org/" target="_blank">Prof. Sebastian Riedel</a>
-			</small></p>
-
-			<small>
-			<p class="lead"> <b> Beijing Institute of Technology</b><br> B.Eng. in Computer Science and Technology, 2011.09 - 2015.06
-			</small></p>
-			</div>
-
-			<div id="experiences"> <!-- Experiences Section --> 
-			<hr>
-			<h3>Experiences</h3>
-			<small>
-			<p class="lead">Research Intern, Talent Intelligence Center, Baidu Inc. 2019.04-2019.09<br>
-			Hosts: <a href="http://www.zhuhengshu.com/" target="_blank">Dr. Hengshu Zhu</a> and <a href="http://datamining.rutgers.edu/" target="_blank">Prof. Hui Xiong</a>
-			</small></p>
-			<small>
-			<p class="lead">Research & Development Intern, Department of Knowledge Graph, Baidu Inc. 2016.07-2017.05<br>	
-			Host: <a href="https://scholar.google.com.sg/citations?user=39NDcAcAAAAJ&hl=zh-CN" target="_blank">Dr. Zheng-Yu Niu</a><br>
-			</small></p>
-			</div>
-			
-			<div id="research"> <!-- Publication Section -->
-			<hr>
-			<h3>Research</h3>
-			<p class="lead">
-			Relational Graph Neural Network with Hierarchical Attention for Knowledge Graph Completion<br>
-			<small><b>Zhao Zhang</b>, Fuzhen Zhuang, Hengshu Zhu, Zhiping Shi, Hui Xiong, Qing He.<br>
-			In the Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI), 2020. <br>
-			[<a href="files/AAAI-ZhangZ.6756.pdf">PDF</a>]
-			[<a href="files/AAAI20_spotlight.pdf">Slides</a>]
-			[<a href="files/AAAI20_poster.pdf">Poster</a>]
-			</small></p>
-
-			<p class="lead">
-			Knowledge triple mining via multi-task learning<br>
-			<small><b>Zhao Zhang</b>, Fuzhen Zhuang, Xuebing Li, Zheng-Yu Niu, Jia He, Qing He, Hui Xiong.<br>
-			In Information Systems, 2019, 80: 64-75.<br>
-			[<a href="http://www.jiaqima.com/papers/OP2S.pdf">PDF</a>]
-			</small></p>
-			
-			<p class="lead">
-			Knowledge Graph Embedding with Hierarchical Relation Structure<br>
-			<small><b>Zhao Zhang</b>, Fuzhen Zhuang, Meng Qu, Fen Lin, Qing He.<br>
-			In the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2018. <br>
-			[<a href="files/HRS_EMNLP18.pdf">PDF</a>]
-			[<a href="files/HRS_EMNLP18_presentation.pdf">Slides</a>]
-			</small></p>
-			
-			<p class="lead">
-			MultiE: Multi-Task Embedding for Knowledge Base Completion<br>
-			<small><b>Zhao Zhang</b>, Fuzhen Zhuang, Zheng-Yu Niu, Deqing Wang, Qing He.<br>
-			In the 27th ACM International Conference on Information and Knowledge Management (CIKM), 2018. <br>
-			[<a href="files/MultiE_CIKM18.pdf">PDF</a>]
-			[<a href="files/MultiE_CIKM18_poster.pdf">Poster</a>]
-			</small></p>
-			
-			<p class="lead">
-			Towards Robust Knowledge Graph Embedding via Multi-task Reinforcement Learning<br>
-			<small><b>Zhao Zhang</b>, Fuzhen Zhuang, Hengshu Zhu, Hui Xiong, Qing He.<br>
-			Under Review<br>
-			</small></p>
-			
-			<p class="lead">
-			Knowledge Graph Embedding with Shared Latent Semantic Units<br>
-			<small><b>Zhao Zhang</b>, Fuzhen Zhuang, Meng Qu, Zheng-Yu Niu, Hui Xiong, Qing He.<br>
-			Under Review<br>
-			</small></p>
-					
-			</small></p>
-			</div>
-			
-			<div id="award"> <!-- Awards Section --> 
-			<hr>
-			<h3>Awards and Honors</h3>
-			<p class="lead"><small>
-			Student Travel Award, AAAI, 2020.<br>
-			Pacemaker to Merit Student of University of Chinese Academy of Sciences, 2019.<br>
-			E Fund Scholarship of Institute of Computing Technology, Chinese Academy of Sciences, 2019.<br>
-			First-class Academic Scholarship of University of Chinese Academy of Sciences, 2018 & 2019.<br>
-			Student Travel Award, EMNLP, 2018.<br>
-			</small></p>
-			</div>
-			
-			
-			<!--
-			<div id="service">
-			<hr>
-			<h3>Academic Services</h3>
-			<p class="lead">Conference Program Committee<br>
-			<small>KDD 19' 20', CIKM 19', AAAI 20'</small></p>
-			<p class="lead">Conference Reviewer<br>
-			<small>KDD 16' 17', WWW 16' 17', WSDM 17', SDM 16' 17', CIKM 17', ICDM 18', IJCAI 16', AAAI 16' 17'</small></p>
-			<p class="lead">Journal Reviewer<br>
-			<small>TKDE, WWWJ, JCST</small></p>
-			-->
-
-
-			<hr>
-			
-			</div>
-		</div>
-	</div>
-
-		<!--<hr>
-		<div class="footer">
-			<p>&copy; 2014</p>
-		</div>-->
-
     </div>
-    </div><!-- /.container -->
+  
+</nav>
+
+<div id="home" class="container">
+  <div class="row">
+    <div class="col-md-1 col-md-offset-1">
+      <img id="photo" class="img-rounded" style="margin-top:25px" src="./files/avatar.jpg" width="150px">
+    </div>
+
+    <div class="col-md-8 col-md-offset-1">
+      <h2>Zhao Zhang&nbsp;&nbsp;(张钊)</h2>
+      <br>
+      <p class="lead">Assistant Professor<br/>
+      Institute of Computing Technology,<br>
+      Chinese Academy of Sciences</p>
+      <p class="lead">Email: zhangzhao2021 AT ict DOT ac DOT cn</p>
+    </div>
+  </div>
+  <hr>
+</div>
+
+<div class="container">
+  <h3 id="biography">Biography</h3>
+  <hr style="border:0; background-color:black; height:1px;" size="0">
+  <p style="font-size: 13.0pt">
+    I am an Assistant Professor at
+    <a href="http://www.ict.ac.cn/" target="_blank" rel="noopener">Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS)</a>, 
+    where I obtained my Ph.D. in 2021. I am more than lucky to be co-supervised by 
+    <a href="https://scholar.google.com/citations?user=zT-zZucAAAAJ&hl=en" target="_blank">Prof. Qing He</a> and 
+    <a href="https://fuzhenzhuang.github.io/" target="_blank">Prof. Fuzhen Zhuang</a> during my doctoral studies.
+
+    Before coming to ICT, I got my B.Eng. degree in Computer Science and Technology from  
+    <a href="http://english.bit.edu.cn/" target="_blank">Bejing Institute of Technology.</a>
+
+    From Sept. 2019 to Sept. 2020, I visited the 
+    <a href="https://nlp.cs.ucl.ac.uk/" target="_blank">UCL NLP Lab</a>
+    at University College London (UCL), where I worked with 
+    <a href="http://www.riedelcastro.org/" target="_blank">Prof. Sebastian Riedel</a>
+    and
+    <a href="http://www.neuralnoise.com/" target="_blank">Dr. Pasquale Minervini</a>.
+    
+    <br>
+    My research interests lie in data mining and machine learning, with a special focus on the representation and application of knowledge graphs.
+    Currently, I am working on the following topics:
+    <ul style="font-size: 13.0pt">
+      <li>Knowledge Graphs (KGs), KG Construction/Embedding/Completion, KG for NLP Tasks </li>
+      <li>Recommendation Systems (RS), KG for RS/Information Retrieval (IR), Fairness-aware RS </li>
+      <li>Spatio-temporal Data Mining, Multivariate Time Series Forecasting, Traffic Forecasting</li>
+    </ul>
+    
+    <!--<em><u>Data Mining techniques and applications, with emphasis on Recomender Systems and Intelligent Tutoring Systems.</u></em>-->
+  </p>
+</div>
+
+<div class="container">
+  <h3 id="education">Education</h3>
+  <hr style="border:0; background-color:black; height:1px;" size="0">
+
+  <small>
+    <p class="lead" style="font-size: 13.0pt"> Institute of Computing Technology, Chinese Academy of Sciences<br> Ph.D. in Computer Science, 2015.09 - 2021.01<br>
+      Advisors: 
+      <a href="https://scholar.google.com/citations?user=zT-zZucAAAAJ&hl=en" target="_blank">Prof. Qing He</a>
+      and 
+      <a href="https://fuzhenzhuang.github.io/" target="_blank">Prof. Fuzhen Zhuang</a>
+    </p>
+  </small>
+
+  <small>
+    <p class="lead" style="font-size: 13.0pt"> Beijing Institute of Technology<br> B.Eng. in Computer Science and Technology, 2011.09 - 2015.06
+    </p>
+  </small>
+</div>
+
+<div class="container">
+  <h3 id="experience">Experience</h3>
+  <hr style="border:0; background-color:black; height:1px;" size="0">
+
+  <small>
+    <p class="lead" style="font-size: 13.0pt">Research Intern, Dept. of ICBU Technology, Alibaba Group, Hangzhou, China. 2020.09 - 2021.01<br>
+    Host: 
+    <a href="https://scholar.google.com/citations?user=0uPb8MMAAAAJ&hl=en" target="_blank">Dr. Dehong Gao</a>
+    </p>
+  </small>
+
+  <small>
+    <p class="lead" style="font-size: 13.0pt">Visiting Scholar, UCL NLP Lab, University College London, London, UK. 2019.09 - 2020.09<br>
+    Advisor: 
+    <a href="http://www.riedelcastro.org/" target="_blank">Prof. Sebastian Riedel</a>
+    </p>
+  </small>
+
+  <small>
+    <p class="lead" style="font-size: 13.0pt">Research Intern, Talent Intelligence Center, Baidu Inc., Beijing, China. 2019.04 - 2019.09<br>
+    Hosts: 
+    <a href="http://www.zhuhengshu.com/" target="_blank">Dr. Hengshu Zhu</a> and <a href="http://datamining.rutgers.edu/" target="_blank">Prof. Hui Xiong</a>
+    </p>
+  </small>
+      
+  <small>
+    <p class="lead" style="font-size: 13.0pt">Research Intern, Dept. of Knowledge Graph, Baidu Inc, Beijing, China. 2016.07 - 2017.05<br>  
+    Host: 
+    <a href="https://scholar.google.com.sg/citations?user=39NDcAcAAAAJ&hl=zh-CN" target="_blank">Dr. Zheng-Yu Niu</a><br>
+    </p>
+  </small>
+</div>
+
+<div class="container">
+  <h3 id="publications">Publications</h3>
+  <p style="font-size: 15.0pt"><a href="https://scholar.google.com.sg/citations?user=i8a07CgAAAAJ&hl=en" target="_blank" rel="noopener">[Google Scholar]</a></p>
+  <hr style="border:0; background-color:black; height:1px;" size="0">
+  <ul style="font-size: 13.0pt">
+    <p><strong>2022</strong></p>
+    
+    <li><strong>Zhao Zhang</strong>, Fuzhen Zhuang, Hengshu Zhu, Chao Li, Hui Xiong, Qing He, Yongjun Xu. Towards Robust Knowledge Graph Embedding via Multi-task Reinforcement Learning, in IEEE Transactions on Knowledge and Data Engineering (TKDE), 2022.</li>
+
+    <li>Fuwei Zhang, <strong>Zhao Zhang</strong>, Xiang Ao, Dehong Gao, Fuzhen Zhuang, Yi Wei, Qing He. Mind the Gap: Cross-Lingual Information Retrieval with Hierarchical Knowledge Enhancement. The Thirty-Sixth AAAI Conference on Artificial Intelligence (AAAI), 2022.</li>
+
+    <li>Zhenwei Tang, Shichao Pei, <strong>Zhao Zhang</strong>, Yongchun Zhu, Fuzhen Zhuang, Robert Hoehndorf, Xiangliang Zhang. Positive-Unlabeled Learning with Adversarial Data Augmentation for Knowledge Graph Completion. The 31st International Joint Conference on Artificial Intelligence (IJCAI), 2022.</li>
+
+    <li>Zezhi Shao, <strong>Zhao Zhang</strong>, Fei Wang, Yongjun Xu. Pre-training Enhanced Spatial-temporal Graph Neural Network for Multivariate Time Series Forecasting. 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2022.</li>
+
+    <li>Zezhi Shao, <strong>Zhao Zhang</strong>, Wei Wei, Fei Wang, Yongjun Xu, Xin Cao, Christian S Jensen. Decoupled Dynamic Spatial-Temporal Graph Neural Network for Traffic Forecasting. 48th International Conference on Very Large Databases (VLDB), 2022.</li>
+
+    <li>Tangwen Qian, Yongjun Xu, <strong>Zhao Zhang</strong>, Fei Wang. Trajectory Prediction from Hierarchical Perspective. 30th ACM International Conference on Multimedia (MM), 2022.</li>
+
+    <li>Tao Sun, Fei Wang, <strong>Zhao Zhang</strong>, Lin Wu, Yongjun Xu. Human Mobility Identification by Deep Behavior Relevant Location Representation. The International Conference on Database Systems for Advanced Applications (DASFAA), 2022. <font color="#FF0000"><strong>Best Student Paper</strong></font> </li>
+
+    <li>Shuokai Li, Yongchun Zhu, Ruobing Xie, Zhengwei Tang, <strong>Zhao Zhang</strong>, Fuzhen Zhuang, Qing He, Hui Xiong. Customized Conversational Recommender Systems. European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD), 2022.</li>
+
+    <li>Fuwei Zhang, <strong>Zhao Zhang</strong>, Xiang Ao, Fuzhen Zhuang, Yongjun Xu and Qing He. Along the Time: Timeline-traced Embedding for Temporal Knowledge Graph Completion. The 31st ACM International Conference on Information and Knowledge Management (CIKM), 2022.</li>
+
+    <li>Zezhi Shao, <strong>Zhao Zhang</strong>, Fei Wang, Wei Wei and Yongjun Xu. Spatial-Temporal Identity: A Simple yet Effective Baseline for Multivariate Time Series Forecasting. The 31st ACM International Conference on Information and Knowledge Management (CIKM), 2022.</li>
+
+    <li>Yuanzhou Yao, <strong>Zhao Zhang</strong>, Yongjun Xu, Chao Li. Data Augmentation for Few-Shot Knowledge Graph Completion from Hierarchical Perspective. The 29th International Conference on Computational Linguistics (COLING), 2022.</li>
+
+    <li>Wei Chen, Jinglong Du, <strong>Zhao Zhang</strong>, Fuzhen Zhuang, Zhongshi He. A Hierarchical Interactive Network for Joint Span-based Aspect-Sentiment Analysis. The 29th International Conference on Computational Linguistics (COLING), 2022.</li>
+
+    <li>Qiming Li, <strong>Zhao Zhang</strong>, Boyu Diao, Yongjun Xu, Chao Li. Towards Understanding the Effect of Node Features on the Predictions of Graph Neural Networks. The 31st International Conference on Artificial Neural Networks (ICANN), 2022.</li>
+
+    <li>Jian Pan, <strong>Zhao Zhang</strong>, Fuzhen Zhuang, Jingyuan Yang and Zhiping Shi. Knowledge-aware Topological Networks for Recommendation. China Conference on Knowledge Graph and Semantic Computing (CCKS), 2022.</li>
+
+    
+    <br>
+    <p><strong>2021</strong></p>
+
+    <li><strong>Zhao Zhang</strong>, Fuzhen Zhuang, Meng Qu, Zheng-Yu Niu, Hui Xiong, Qing He. Knowledge Graph Embedding with Shared Latent Semantic Units. Neural Networks, 2021.</li>
+
+    <li>Runchuan Wang, <strong>Zhao Zhang</strong>, Fuzhen Zhuang, Dehong Gao, Yi Wei, Qing He. Adversarial Domain Adaptation for Cross-lingual Information Retrieval with Multilingual BERT. The 30th ACM International Conference on Information & Knowledge Management (CIKM), 2021.</li>
+
+    
+    <br>
+    <p><strong>2020</strong></p>
+
+    <li><strong>Zhao Zhang</strong>, Fuzhen Zhuang, Hengshu Zhu, Zhiping Shi, Hui Xiong, Qing He. Relational Graph Neural Network with Hierarchical Attention for Knowledge Graph Completion. The Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI), 2020.</li>
+
+    <li>Shiyu Zhang, <strong>Zhao Zhang</strong>, Fuzhen Zhuang, Zhiping Shi, Xu Han. Compressing Knowledge Graph Embedding with Relational Graph Auto-encoder. The 10th International Conference on Electronics Information and Emergency Communication (ICEIEC), 2020.</li>
+
+    
+    <br>
+    <p><strong>2019</strong></p>
+
+    <li><strong>Zhao Zhang</strong>, Fuzhen Zhuang, Xuebing Li, Zheng-Yu Niu, Jia He, Qing He, Hui Xiong. Knowledge Triple Mining via Multi-Task Learning. Information Systems, 80 (2019), 64-75. </li>
+
+    <li>Xuebing Li, Ying Sun, Fuzhen Zhuang, Jia He, <strong>Zhao Zhang</strong>, Shijun Zhu, Qing He. Potential Off-Grid User Prediction System Based on Spark. ZTE Communications, 2019.</li>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <hr>
-	
-	<!--
-	<p align="center">You are the  
-	<img src="http://hitwebcounter.com/counter/counter.php?page=6289777&style=0006&nbdigits=5&type=ip&initCount=0" title="my widget for counting" Alt="my widget for counting"   border="0" \>
-	</a>
-	visitors of my homepage.
-	</p>
-	-->
-  </body>
-</html>
+    <br>
+    <p><strong>2018</strong></p>
 
+    <li><strong>Zhao Zhang</strong>, Fuzhen Zhuang, Meng Qu, Fen Lin, Qing He. Knowledge Graph Embedding with Hierarchical Relation Structure. The 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2018.</li>
+
+    <li><strong>Zhao Zhang</strong>, Fuzhen Zhuang, Zheng-Yu Niu, Deqing Wang, Qing He. MultiE: Multi-Task Embedding for Knowledge Base Completion. The 27th ACM International Conference on Information and Knowledge Management (CIKM), 2018.</li>
+
+  </ul>
+</div>
+
+<div class="container">
+  <h3 id="honors">Honors</h3>
+  <hr style="border:0; background-color:black; height:1px;" size="0">
+  <ul style="font-size: 13.0pt">
+    <li>DASFAA 2022 Best Student Paper, 2022.</li>
+    <li>Student Travel Award, AAAI, 2020.</li>
+    <li>Pacemaker to Merit Student, University of Chinese Academy of Sciences, 2019.</li>
+    <li>E Fund Scholarship, Institute of Computing Technology, Chinese Academy of Sciences, 2019.</li>
+    <li>First-class Academic Scholarship, University of Chinese Academy of Sciences, 2018 & 2019.</li>
+    <li>Student Travel Award, EMNLP, 2018.</li>
+    <li>CASC Scholarship, Bejing Institute of Technology, 2015.</li>
+  </ul>
+</div>
+
+<br><!--插入空行-->
+
+
+
+</body></html>
